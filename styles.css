@@ -35,3 +35,29 @@ main{
    border-radius: 8px;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.search-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.search-section input{
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+.search-section button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background 0.3s;
+
+}
+.search-section button:hover{
+    background: #0056b3;
+}
