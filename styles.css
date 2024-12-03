@@ -1,12 +1,12 @@
 /* configuração básica da página */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* estilo geral do body */
-body{
+body {
     /* border: 1px solid green; */
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     line-height: 1.6;
@@ -15,39 +15,46 @@ body{
     padding: 0 10px;
 
 }
-header{
+
+header {
     text-align: center;
-    margin: 20px 0 ;
+    margin: 20px 0;
 }
-header h1{
+
+header h1 {
     font-size: 2.5rem;
     color: #444;
 }
-header p{
+
+header p {
     font-size: 1.2rem;
     color: #667;
 }
-main{
-   max-width: 800px;
-   margin: 0 auto;
-   padding: 20px; 
-   background: #fff;
-   border-radius: 8px;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.search-section{
+
+.search-section {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.search-section input{
+
+.search-section input {
     width: 70%;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
 }
-.search-section button{
+
+.search-section button {
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
@@ -58,6 +65,94 @@ main{
     transition: background 0.3s;
 
 }
-.search-section button:hover{
+
+.search-section button:hover {
     background: #0056b3;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#weather-details {
+    flex: 1;
+}
+
+#weather-details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+#weather-details p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+#weather-icon {
+    flex: 0.4;
+    text-align: center;
+}
+
+#weather-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.favorites-section {
+    margin-top: 20px;
+}
+
+.favorites-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#favorites-list {
+    list-style: none;
+    padding: 0;
+}
+
+#favorites-list li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#favorites-list li button {
+    background: #ff4d4d;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#favorites-list li button:hover {
+    background: #cc0000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover {
+color: #0056b3;
 }
