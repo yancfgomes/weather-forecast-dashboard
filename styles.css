@@ -11,7 +11,7 @@ body{
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: #f4f4f9;
+    background: #f4f9f8;
     padding: 0 10px;
 
 }
@@ -26,4 +26,12 @@ header h1{
 header p{
     font-size: 1.2rem;
     color: #667;
+}
+main{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px; 
+   background: #fff;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
