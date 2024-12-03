@@ -1,0 +1,17 @@
+/* configuração básica da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo geral do body */
+body{
+    /* border: 1px solid green; */
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f9;
+    padding: 0 10px;
+
+}
