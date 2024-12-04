@@ -4,7 +4,7 @@ Uma aplicação web interativa que fornece informações climáticas atualizadas
 
 ## 🖥️ Demonstração
 
-![Weather Dashboard Screenshot](image.png)
+![Weather Dashboard Screenshot](https://github.com/yancfgomes/weather-forecast-dashboard/blob/main/assets/images/Captura%20de%20tela%202024-12-03%20202012.png)
 
 ### 🔗 Acesse o projeto
 [Weather Dashboard - Live Demo](#)
