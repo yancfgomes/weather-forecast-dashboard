@@ -101,7 +101,7 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 - **Nome**: Yan Gomes
 - **GitHub**: [@yancfgomes](https://github.com/yancfgomes)
-- **LinkedIn**: [Yan](https://www.linkedin.com/in/yancfgomes/)
+- **LinkedIn**: [Yan Fernandes](https://www.linkedin.com/in/yancfgomes/)
 
 
 
